@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="stylesheet" content="width=device-width"
+        initial-scale="1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Form</title>
+    </head>
+
+    <header>
+        <h1>Form</h1>
+    </header>
+    
+    <table>
+        <tr>
+            <td>Name: </td>
+            <td><label><input type="text" name="username" size=30></label></td>
+        </tr>
+
+        <tr>
+            <td>E-mail Address: </td>
+            <td><label><input type="email" name="email" size=30></label></td>
+        </tr>
+
+        <tr>
+            <td> Mailing Address:</td>
+            <td><label><input type="text" size="30" name="mailingadress"></label></td>
+        </tr>
+        
+        <tr>
+            <td>City: </td>
+            <td><label><input type="text" size="30" name="city"></label></td>
+        </tr>
+
+        <tr>
+            <td><label for="state">State:</label></td>
+            <td><select name="state" id="state">
+                <optgroup label="States">
+        <option value="AL">Alabama</option>
+		<option value="AK">Alaska</option>
+		<option value="AZ">Arizona</option>
+		<option value="AR">Arkansas</option>
+		<option value="CA">California</option>
+		<option value="CO">Colorado</option>
+		<option value="CT">Connecticut</option>
+		<option value="DE">Delaware</option>
+		<option value="DC">District Of Columbia</option>
+		<option value="FL">Florida</option>
+		<option value="GA">Georgia</option>
+		<option value="HI">Hawaii</option>
+		<option value="ID">Idaho</option>
+		<option value="IL">Illinois</option>
+		<option value="IN">Indiana</option>
+		<option value="IA">Iowa</option>
+		<option value="KS">Kansas</option>
+		<option value="KY">Kentucky</option>
+		<option value="LA">Louisiana</option>
+		<option value="ME">Maine</option>
+		<option value="MD">Maryland</option>
+		<option value="MA">Massachusetts</option>
+		<option value="MI">Michigan</option>
+		<option value="MN">Minnesota</option>
+		<option value="MS">Mississippi</option>
+		<option value="MO">Missouri</option>
+		<option value="MT">Montana</option>
+		<option value="NE">Nebraska</option>
+		<option value="NV">Nevada</option>
+		<option value="NH">New Hampshire</option>
+		<option value="NJ">New Jersey</option>
+		<option value="NM">New Mexico</option>
+		<option value="NY">New York</option>
+		<option value="NC">North Carolina</option>
+		<option value="ND">North Dakota</option>
+		<option value="OH">Ohio</option>
+		<option value="OK">Oklahoma</option>
+		<option value="OR">Oregon</option>
+		<option value="PA">Pennsylvania</option>
+		<option value="RI">Rhode Island</option>
+		<option value="SC">South Carolina</option>
+		<option value="SD">South Dakota</option>
+		<option value="TN">Tennessee</option>
+		<option value="TX">Texas</option>
+		<option value="UT">Utah</option>
+		<option value="VT">Vermont</option>
+		<option value="VA">Virginia</option>
+		<option value="WA">Washington</option>
+		<option value="WV">West Virginia</option>
+		<option value="WI">Wisconsin</option>
+		<option value="WY">Wyoming</option>
+            </optgroup>
+            </td> <!--we had to type the states out BY HAND and the only reason i didnt was because i found a copypaste for this online. im not spending extra time typing bc old people wanted to conquer and pillage-->
+                
+        </tr>
+
+        <tr>
+            <td>Zip: </td>
+            <td><label><input type="text" name="ZIP" size="5"></label></td>
+        </tr>
+
+        <tr>
+            <td>Phone: </td>
+            <td><label><input type="text" name="Phone" size="10"</label></td>
+        </tr>
+
+        <tr>
+            <td>Difficulty: </td>
+            <td>
+                <label><input type="radio" id="button1" name="button">Harmless</label> <br>
+                <label><input type="radio" id="button2" name="button">Lenient</label> <br>
+                <label><input type="radio" id="button3" name="button">Standard</label> <br>
+                <label><input type="radio" id="button4" name="button">Violent</label> <br>
+                <label><input type="radio" id="button5" name="button">Brutal</label> <br>
+                <label><input type="radio" id="button6" name="button">HTML MUST DIE</label> <br>
+                <!--oh THATS hwo you do comments. okay. these difficulties are the ones from ultrakill btw-->
+            </td>
+            <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox">Idk how this one is at the top. click anyway?</label>
+        </tr>
+
+        <tr>
+            <td>Comments:</td>
+            <td><label><textarea name="Comments" id="Comments" cols="60" rows="8" placeholder="Be honest."></textarea></label></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="submit"><input type="Submit" value="Submit">
+                    <input type="submit" value="Clear"></label>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        &copy; HTML class 2025
+    </footer>
+</html>
